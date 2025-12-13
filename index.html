@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pablo Barría | Tecnología y Gestión Pública</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-principal: #0f4c5c;
+      --color-secundario: #1b6b73;
+      --fondo-claro: #f3f7f6;
+    }
+
+    body {
+      scroll-behavior: smooth;
+      background-color: var(--fondo-claro);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, var(--color-principal), var(--color-secundario));
+      color: white;
+      padding: 120px 0;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+    }
+
+    .badge-area {
+      background-color: #e1eef0;
+      color: var(--color-principal);
+    }
+
+    .btn-principal {
+      background-color: var(--color-principal);
+      color: white;
+    }
+
+    .btn-principal:hover {
+      background-color: var(--color-secundario);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--color-principal);">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Pablo Barría</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#investigaciones">Investigaciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Magíster en Gobierno y Gerencia Pública, Pablo Barría</h1>
+    <p class="lead mt-3">
+Investigación, Desarrollo de Sistemas, Consultoria, Gestión Pública.
+    </p>
+    <div class="mt-4">
+      <span class="badge badge-area me-2">Magíster en Gobierno y Gerencia Pública</span>
+      <span class="badge badge-area me-2">Ingeniero</span>
+
+    </div>
+  </div>
+</section>
+
+<!-- INVESTIGACIONES -->
+<section id="investigaciones" class="section-padding">
+  <div class="container">
+    <center><h2 class="mb-4" style="color: var(--color-principal);">Ultima Investigación</h2></center>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Natalidad en Chile</h5>
+            <p>Análisis de tendencias, causas estructurales y desafíos para políticas públicas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Salud Región de Los Lagos</h5>
+            <p>Problemáticas territoriales, brechas de acceso y evidencia regional.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5>Participación Ciudadana</h5>
+            <p>Mecanismos participativos y su uso en la gestión pública local.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURSOS -->
+<section id="videos" class="section-padding">
+  <div class="container">
+    <center><h2 class="mb-4" style="color: var(--color-principal);">Ultimos Videos</h2></center>
+
+  </div>
+</section>
+
+<!-- INGENIERIA -->
+<section id="cursos" class="section-padding" style="background-color: #ffffff;">
+  <div class="container">
+    <center><h2 class="mb-4" style="color: var(--color-principal);">Ultimos Cursos</h2></center>
+    <p>Cursos prácticos disponibles en Udemy.</p>
+    <a href="#" class="btn btn-principal">Ver cursos en Udemy</a>
+  </div>
+</section>
+
+
+
+<!-- PORTAFOLIO -->
+<section id="portafolio" class="section-padding"  >
+  <div class="container">
+    <center><h2 class="mb-4" style="color: var(--color-principal);">Portafolio Desarrollador</h2></center>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- CONTACTO -->
+<section id="contacto" class="section-padding text-white" style="background-color: var(--color-principal)";>
+  <div class="container">
+    <h2 class="mb-4 text-center" >Contacto</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Nombre">
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Correo">
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+      </div>
+      <div class="col-12">
+        <center><button class="btn btn-primary">Enviar</button></center>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-white text-center py-3" style="background-color: var(--color-principal);">
+  © 2025 Pablo Barría · Tecnología y Gestión Pública
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
